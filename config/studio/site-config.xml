@@ -20,7 +20,7 @@
 
 -->
 <site-config>
-    <version>10</version>
+    <version>4.0.1</version>
     <wem-project>editorial-4000commits</wem-project>
     <display-name>editorial-4000commits</display-name>
     <locale>
