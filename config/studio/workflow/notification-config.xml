@@ -20,7 +20,7 @@
 
 -->
 <notificationConfig>
-    <version>4.0.2</version>
+    <version>4.0.3</version>
     <!-- language specific notifications -->
     <deploymentFailureNotification>
         <!-- list of email addresses to notify in case of publishing failure -->
@@ -68,7 +68,7 @@
         <emailTemplate key="deploymentError">
             <subject>Deployment error on site ${siteName}</subject>
             <body>
-                        &lt;html&gt;
+                                        &lt;html&gt;
                             &lt;head&gt;
                                 &lt;meta charset="utf-8"/&gt;
                             &lt;/head&gt;
@@ -81,12 +81,14 @@
                                         &lt;/#list&gt;
                                     &lt;/ul&gt;
                                         Error:&lt;br/&gt;
-                                        <pre>${deploymentError}</pre>
-                                    &lt;br/&gt;&lt;br/&gt;
+                                        
+                <pre>${deploymentError}</pre>
+                                                    &lt;br/&gt;&lt;br/&gt;
                                 &lt;/p&gt;
                             &lt;/body&gt;
                         &lt;/html&gt;
-</body>
+
+            </body>
         </emailTemplate>
         <emailTemplate key="contentApproved">
             <subject>&lt;#if scheduleDate??&gt;Content Scheduled &lt;#else&gt;Content Approved&lt;/#if&gt;</subject>
