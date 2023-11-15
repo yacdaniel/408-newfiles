@@ -14,7 +14,6 @@
   ~ You should have received a copy of the GNU General Public License
   ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
-
 <!-- permission-mappings-config.xml
 
   This files contains the permissions mappings for the roles defined in
@@ -76,7 +75,7 @@
 
 -->
 <permissions>
-    <version>12</version>
+    <version>4.0-t</version>
     <role name="author">
         <rule regex="/site/website/.*">
             <allowed-permissions>
